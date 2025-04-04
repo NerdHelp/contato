@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - NerdHelp</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+        header {
+            background-color: #1e293b;
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .glasses {
+            font-size: 30px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            background-color: #1e293b;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #334155;
+        }
+        .social {
+            margin-top: 30px;
+        }
+        .social a {
+            display: inline-block;
+            margin-right: 20px;
+            color: #1e293b;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .social a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="glasses">🕶️</div>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="portfolio.html">Portfólio</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 style="text-align: center; margin-bottom: 40px;">Entre em Contato</h1>
+
+        <form action="https://formsubmit.co/kauanmarquesturra@gmail.com" method="POST">
+            <input type="text" name="nome" placeholder="Seu nome" required>
+            <input type="email" name="email" placeholder="Seu e-mail" required>
+            <textarea name="mensagem" rows="5" placeholder="Sua mensagem..." required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div class="social">
+            <p>Ou entre em contato pelo WhatsApp ou E-mail:</p>
+            <a href="https://wa.me/11950624277" target="_blank">📱 WhatsApp</a>
+            <a href="mailto:kauanmarquesturra@gmail.com">📧 E-mail</a>
+        </div>
+    </div>
+
+    <footer>
+        © 2025 NerdHelp. Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
